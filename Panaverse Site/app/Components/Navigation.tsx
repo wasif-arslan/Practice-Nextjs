@@ -22,21 +22,19 @@ const Navigation = () => {
   return (
     <Box>
       <Flex justifyContent="center" py={3} margin={"auto"} gap={10}>
+        
         <Card maxW="sm" mt={-10}>
           <CardBody>
             <Image
-              src={"/ai.jpg"}
+              src={"/clo.jpg"}
               alt="Green double couch with wooden legs"
               borderRadius="lg"
             />
             <Stack mt="6" spacing="3" textAlign="center">
-              <Heading size="md">
-                Artificial Intelligence (AI) and Deep Learning Specialization
-              </Heading>
+              <Heading size="md">Cloud-Native Computing Specialization</Heading>
               <Text>
-                The AI and Deep Learning specialization focuses on building and
-                deploying intelligent APIs using OpenAI models and building
-                custom Deep Learning Tensorflow models.
+                The Cloud-Native Computing Specialization focuses on Containers,
+                Kubernetes, and CDK for Kubernetes.
               </Text>
             </Stack>
           </CardBody>
@@ -52,15 +50,18 @@ const Navigation = () => {
         <Card maxW="sm" mt={-10}>
           <CardBody>
             <Image
-              src={"/clo.jpg"}
+              src={"/ai.jpg"}
               alt="Green double couch with wooden legs"
               borderRadius="lg"
             />
             <Stack mt="6" spacing="3" textAlign="center">
-              <Heading size="md">Cloud-Native Computing Specialization</Heading>
+              <Heading size="md">
+                Artificial Intelligence (AI) and Deep Learning Specialization
+              </Heading>
               <Text>
-                The Cloud-Native Computing Specialization focuses on Containers,
-                Kubernetes, and CDK for Kubernetes.
+                The AI and Deep Learning specialization focuses on building and
+                deploying intelligent APIs using OpenAI models and building
+                custom Deep Learning Tensorflow models.
               </Text>
             </Stack>
           </CardBody>
