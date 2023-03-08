@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function HeroSec() {
   return (
-    <section className="flex flex-col md:flex-row items-center md:justify-between mt-24 mb-24 md:mb-32">
+    <section className="flex flex-col md:flex-row items-center md:justify-between mt-24 mb-24 md:mb-32 relative">
       <div className="w-full md:w-1/2 mb-16 md:mb-0">
         <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
         <p className="text-xl mb-8">
