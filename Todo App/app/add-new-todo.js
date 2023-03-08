@@ -1,9 +1,8 @@
 "use client";
-
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-async function AddTodo(name, refresh) {
+async function addTodo(name, refresh) {
   await fetch(`/api/todo/add`, {
     method: "POST",
     body: JSON.stringify({ name }),
@@ -24,7 +23,7 @@ export default function AddNewTodo() {
       />
       <button
         onClick={async () => {
-          await AddTodo(name, router.refresh);
+          await addTodo(name, router.refresh);
           setName("");
         }}
       >
