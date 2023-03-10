@@ -34,7 +34,7 @@ export default function Home() {
             <div className="mt-9">
               <a
                 href="#"
-                className="px-5 py-3  font-semibold bg-red-600 text-white rounded-full"
+                className="px-5 py-3 hover:text-gray-800 font-semibold bg-red-600 text-white rounded-full"
               >
                 Apply Now !
               </a>
