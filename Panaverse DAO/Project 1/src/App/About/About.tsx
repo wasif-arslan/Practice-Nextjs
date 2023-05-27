@@ -1,27 +1,16 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 export default function About() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      
-      <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          About Us
-        </h1>
+    <div className="p-10 flex-1">
+      <div className="text-center "> Why to Join</div>
 
-        <p className="mt-3 text-2xl">
-          We are a company that is passionate about creating innovative products for our customers. Our team is made up of experts in design, engineering, and marketing who work together to bring our ideas to life.
-        </p>
-
-        <div className="mt-6">
-          <a
-            href="#"
-            className="px-4 py-2 font-semibold bg-gray-800 text-white rounded-full"
-          >
-            Learn More
-          </a>
-        </div>
-      </main>
+      <div className="  w-[900px]   text-center items-center">
+        In this brand-new type of curriculum, students will learn how to make
+        money and boost exports in the classroom and will begin doing so within
+        six months of the program's beginning. It resembles a cross between a
+        corporate venture and an educational project.
+      </div>
     </div>
-  )
+  );
 }

@@ -1,20 +1,20 @@
-import About from "@/App/About/About";
-import Home from "@/App/Home/Home";
 import NavBar from "@/App/NavBar/NavBar";
-import { Html, Head, Main, NextScript } from "next/document";
+import Provider from "@/App/Provider";
+import { Head } from "next/document";
 
-export default function Document() {
+export default function Document({ children }: { children: React.ReactNode }) {
   return (
-    <Html lang="en">
+    <html lang="en">
       <Head>
         <title>Panaverse Site By Wasif</title>
         <link rel="icon" href="" />
       </Head>
       <body>
-        <NavBar />
-        <Main />
-        <NextScript />
+        <Provider>
+          <NavBar />
+          {children}
+        </Provider>
       </body>
-    </Html>
+    </html>
   );
 }
