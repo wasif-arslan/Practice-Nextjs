@@ -23,9 +23,9 @@ export function Hero() {
                         <Image
                             src={"/img.jpg"}
                             alt="Photo by Drew Beamer"
-                            height={100}
-                            width={500}
-                            className="rounded-md object-cover w-[600px] h-[400px]"
+                            height={400}
+                            width={600}
+                            className="rounded-md object-cover w-full "
                         />
                     
                 </div>
