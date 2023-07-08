@@ -3,9 +3,9 @@ import Image from "next/image"
 export default function About() {
     return (
         <>
-            <div className="flex justify-between h-17 p-20">
+            <div className="flex justify-between h-17 mt-10">
                 <div className="w-[300px] ">
-                    <Image src={"/logo.png"} alt="Image" width={60} height={40}></Image>
+                    <Image src={"/logo.png"} alt="Image" width={150} height={20} className="h-max w-max"></Image>
                     <p className="mt-10">Small, artisan label that offers a thoughtfully curated collection of high quality everyday essentials made.</p>
                 </div>
                 <div className="space-y-2">
