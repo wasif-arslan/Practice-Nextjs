@@ -6,7 +6,7 @@ export default function Copyright() {
     <section>
       <div className="h-[1px] bg-black mt-10"></div>
       <div className="p-7 ml-[215px] w-[1480px] flex text-center justify-between">
-        <p>Copyright © 2022. Designed by aethonint.digital</p>
+        <p>Copyright © 2022. Designed by Wasif</p>
         <div className=" flex space-x-5">
           <Link href={"/"}>Terms</Link>
           <Link href={"/"}>Support</Link>
