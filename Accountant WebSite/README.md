@@ -36,4 +36,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 
-![Alt Text](/public/a(5).png)
+![nbfgn](public/a(5).png)
