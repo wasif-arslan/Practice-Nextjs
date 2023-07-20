@@ -37,7 +37,7 @@ export default function HeroSec5() {
               prefer.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-3">
+          <AccordionItem value="item-4">
             <AccordionTrigger>
               How do I open a business account with Revolut Business?
             </AccordionTrigger>

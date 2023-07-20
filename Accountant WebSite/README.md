@@ -36,5 +36,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 
-![Alt Text](/a5.png)
+![Image](/a4.png)
+![Image](/a5.png)
+![Image](/a1.png)
+![Image](/a2.png)
+![Image](/a3.png)
+
+
 

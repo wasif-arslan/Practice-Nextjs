@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Copyright() {
   return (
     <section>
-      <div className="h-[2px] bg-black mt-10"></div>
+      <div className="h-[1px] bg-black mt-10"></div>
       <div className="p-7 ml-[215px] w-[1480px] flex text-center justify-between">
         <p>Copyright © 2022. Designed by aethonint.digital</p>
         <div className=" flex space-x-5">
