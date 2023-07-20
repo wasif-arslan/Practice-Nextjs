@@ -3,7 +3,7 @@ import HeroSec2 from "@/views/HeroSec2";
 import HeroSec3 from "@/views/HeroSec3";
 import HeroSec4 from "@/views/HeroSec4";
 import HeroSec5 from "@/views/HeroSec5";
-import Copyright from "@/views/copyright";
+
 
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       <HeroSec3></HeroSec3>
       <HeroSec4></HeroSec4>
       <HeroSec5></HeroSec5>
-      <Copyright></Copyright>
+      
     </main>
   );
 }
