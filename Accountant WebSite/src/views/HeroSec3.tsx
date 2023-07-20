@@ -1,6 +1,6 @@
 export default function HeroSec3() {
   return (
-    <section className=" mt-[90px] ml-[215px] w-[1480px] ">
+    <section className="mt-[190px] ml-[215px] w-[1480px] ">
       <h1 className=" text-5xl text-center ">
         Business Accounting Services
       </h1>
@@ -12,7 +12,7 @@ export default function HeroSec3() {
         services suited to your requirements.
       </p>
       <div className="flex justify-evenly flex-wrap">
-        <div className="w-[280px] m-8 p-8 text-white bg-[#018596] drop-shadow-lg rounded  h-76 flex flex-col">
+        <div className="w-[280px] m-8 p-8 text-white bg-[#018596] drop-shadow-lg rounded    h-76 flex flex-col">
           <h2 className="font-bold  text-2xl">Payroll & Auto Enrolment</h2>
           <p className="flex-grow mt-4">
             Our payroll and auto enrolment services offer you peace of mind by

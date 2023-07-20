@@ -4,7 +4,7 @@ import hersec2a from "/public/hersec2a.svg";
 
 export default function HeroSec2() {
   return (
-    <section className="flex flex-col  ">
+    <section className="flex flex-col -mt-10 ">
       <div className="flex justify-center">
         <div className="w-80 m-8 p-8 bg-white drop-shadow-lg rounded border-black  h-96 flex flex-col">
           <Image src={table} alt=""></Image>
@@ -64,7 +64,7 @@ export default function HeroSec2() {
         </div>
       </div>
 
-      <div className="relative">
+      <div className="relative mt-10">
         <div className="absolute w-[832px] right-0 mt-[110px] mr-[250px] h-[134px]">
           <h1 className=" text-xl font-semibold  ">
             Take the next step with Black & White chartered certified

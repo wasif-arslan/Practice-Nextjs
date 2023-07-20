@@ -4,7 +4,7 @@ import photo1 from "/public/photo1.svg";
 export default function HeroSec() {
   return (
     <div className="-mt-[110px] relative  -z-5">
-      <div className="absolute mt-[210px] w-[470px]  ml-[160px] text-white z-5">
+      <div className="absolute mt-[270px] w-[470px]  ml-[160px] text-white z-5">
         <h1 className="scroll-m-20 text-4xl  tracking-tight lg:text-5xl">
           Accountancy,{" "}
           <p className="font-extrabold">Bookkeeping & Tax Solutions.</p>

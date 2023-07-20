@@ -3,7 +3,7 @@ import { Dot } from 'lucide-react';
 
 export default function HeroSec4() {
   return (
-    <section className=" mt-[90px] ml-[215px] w-[1480px] ">
+    <section className=" mt-[190px] ml-[215px] w-[1480px] ">
       <h1 className=" text-5xl text-center ">
         Warr & Co – Accounting Services For Businesses
       </h1>
