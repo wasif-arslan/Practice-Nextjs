@@ -1,10 +1,8 @@
-import ProductCart from "@/components/ProductCart";
-import { StaticImageData } from "next/image";
+import { client } from "@/lib/sanityClient";
 import Image from "next/image";
 import { Image as IImage } from "sanity";
 import { urlForImage } from "../../sanity/lib/image";
-
-import { client } from "@/lib/sanityClient";
+import { Button } from "@/components/ui/button";
 
 interface IProduct {
   price: number;
@@ -31,21 +29,22 @@ export const getProductData = async () => {
 
 export default async function ProductData() {
   const data: IProduct[] = await getProductData();
-  const productChoncks = data.slice(0, 3);
+
   return (
-    <section>
-      <div className="flex justify-between mt-16">
-        {productChoncks.map((item) => (
-          <ProductCart
-            key={item._id}
-            title={item.title}
-            price={item.price}
-            image={item.image}
-            category={item.category}
-            _id={item._id}
-          ></ProductCart>
-        ))}
-      </div>
-    </section>
+    <div className="flex justify-evenly flex-wrap mt-16">
+      {data.map((item) => (
+        <div>
+          <Image
+            src={urlForImage(item.image).url()}
+            width={300}
+            height={300}
+            alt="product"
+          ></Image>
+          <h2>{item.title}</h2>
+          <h2>{item.price}</h2>
+          <Button className="bg-black h-12 px-8 mt-4"> Add to Cart</Button>
+        </div>
+      ))}
+    </div>
   );
 }

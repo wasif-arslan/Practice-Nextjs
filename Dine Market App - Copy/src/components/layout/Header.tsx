@@ -25,7 +25,6 @@ export default function Header() {
         <li>
           <Link href="/AllProducts">All Products</Link>
         </li>
-    
       </ul>
       <div className="h-10 w-10 rounded-full bg-gray-200 flex justify-center items-center">
         <ShoppingCart className="h-6 w-6"></ShoppingCart>
