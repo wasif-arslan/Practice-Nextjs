@@ -10,9 +10,9 @@ import { ZodError } from "zod";
 
 export async function POST(req: NextRequest) {
   try {
-    const body = (await req.json()) as RegisterUserInput;
+    const body = await req.json();
     const data = RegisterUserSchema.parse(body);
-
+    // return new Response(body.stringify(JSON))
     const hashedPassword = await hash(data.password, 12);
 
     const user = await prisma.user.create({
