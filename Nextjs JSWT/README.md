@@ -35,4 +35,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 
-![Picture](/Capture.PNG)
+![Picture](public/Capture.PNG)
