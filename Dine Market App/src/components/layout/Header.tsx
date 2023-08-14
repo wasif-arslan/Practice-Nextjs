@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Logo from "/public/logo.webp";
+import Logo from "/logo.webp";
 import Image from "next/image";
 import { ShoppingCart } from "lucide-react";
 
@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className="flex justify-between items-center py-6 px-[9rem]">
       <Link href="/">
-        <Image src={Logo} alt="Logo"></Image>
+        <Image src="/logo.webp" width={20} height={20} alt="Logo"></Image>
       </Link>
       <ul className="flex gap-x-10 text-lg">
         <li>
