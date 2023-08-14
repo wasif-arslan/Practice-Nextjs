@@ -25,13 +25,13 @@ export const getProductData = async () => {
   return res;
 };
 
-const GetProductsByCategory = async (category: { name: string }) => {
+const GetProductsByCategory = async (category: string) => {
   const data: IProduct[] = await getProductData();
 
-  return data.filter((product) => product.category.name === product.category.name);
+  return data.filter((product) => product.category.name === category);
 };
 
-export default async function Page({ params }: { params : {categoryName: { name: string }}} ) {
+export default async function Page({ params }: { params: { categoryName: string }} ) {
   const result = await GetProductsByCategory(params.categoryName);
 
   return (

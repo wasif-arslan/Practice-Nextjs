@@ -26,12 +26,11 @@ export const getProductData = async () => {
   return res;
 };
 
-export default async function Page(_id: string) {
+export default async function Page({params}:{params:{_id: string}}) {
   const data: IProduct[] = await getProductData();
-  console.log(data);
-  console.log(_id);
+  
 
-  const result = data.filter((res) => res._id === _id);
+  const result = data.filter((res) => res._id === params._id);
   
 
   console.log(result);
